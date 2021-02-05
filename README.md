@@ -1,4 +1,4 @@
-# [mein-wallet landing-page](https://mein-wallet.de)
+# [landing-page](https://mein-wallet.de)
 
 ## Usage
 
