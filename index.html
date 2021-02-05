@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Your private portfolio" />
+    <meta name="author" content="" />
+
+    <title>mein-wallet - Your private crypto portfolio tracker</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="vendor/simple-line-icons/css/simple-line-icons.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli"
+      rel="stylesheet"
+    />
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="device-mockups/device-mockups.min.css" />
+    <link rel="icon" href="img/favicon.ico" />
+
+    <!-- Custom styles for this template -->
+    <link href="css/new-age.min.css" rel="stylesheet" />
+    <script>
+      function detectLanguage() {
+        const languages = navigator.languages;
+        let locale = "en";
+        for (let i = 0; i < languages.length; i++) {
+          if (languages[i] === "en" || languages[i] === "en-US") {
+            break;
+          }
+
+          if (languages[i] === "es" || languages[i] === "es-ES") {
+            window.location.replace("http://mein-wallet.de/es_ES");
+            break;
+          }
+
+          if (languages[i] === "de" || languages[i] === "de-DE") {
+            //window.location.replace("http://mein-wallet.de/de_DE");
+            //break;
+          }
+        }
+      }
+
+      detectLanguage();
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-GNSG7C32F1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-GNSG7C32F1");
+    </script>
+  </head>
+
+  <body id="page-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          <img src="img/logo.png" class="logo" alt="" />
+        </a>
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#download"
+                >Download</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#features"
+                >Features</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#howTo"
+                >How to use it</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#donate">Donate</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="masthead">
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col-lg-7 my-auto">
+            <div class="header-content mx-auto">
+              <h1 class="mb-5">
+                mein-wallet is your private crypto portfolio!
+              </h1>
+              <a
+                href="/portfolio"
+                class="btn btn-outline btn-xl js-scroll-trigger"
+                >Go to your Portfolio!</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-5 my-auto">
+            <div class="device-container">
+              <div class="device-mockup iphone6_plus portrait white">
+                <div class="device">
+                  <div class="screen">
+                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                    <img
+                      src="img/demo-screen-1_en_US.png"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="button">
+                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="download bg-primary text-center" id="download">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <h2 class="section-heading">Coming soon...</h2>
+            <p>We will be soon as iOS and Adroid apps!</p>
+            <div class="disabled badges">
+              <a class="badge-link" href="#"
+                ><img src="img/google-play-badge.svg" alt=""
+              /></a>
+              <a class="badge-link" href="#"
+                ><img src="img/app-store-badge.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="container">
+        <div class="section-heading text-center">
+          <h2>You have your coins in multiple exchanges?</h2>
+          <p class="text-muted">Keep track of your wallet in every moment!</p>
+          <hr />
+        </div>
+        <div class="row">
+          <div class="col-lg-4 my-auto">
+            <div class="device-container">
+              <div class="device-mockup iphone6_plus portrait white">
+                <div class="device">
+                  <div class="screen">
+                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                    <img
+                      src="img/demo-screen-2_en_US.png"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="button">
+                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 my-auto">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="icon-key text-primary"></i>
+                    <h3>Privacy</h3>
+                    <p class="text-muted">
+                      We do not track any information and we dont save any data
+                      on our side, everything is in your browser!
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="icon-wallet text-primary"></i>
+                    <h3>Multiple portfolios</h3>
+                    <p class="text-muted">
+                      Create all the portfolios that you want and track them
+                      separetely!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="icon-present text-primary"></i>
+                    <h3>Free to Use</h3>
+                    <p class="text-muted">
+                      mein-wallet its a Portfolio for everyone, without
+                      advertisment and free to use. Yes, sounds good!
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="icon-camera text-primary"></i>
+                    <h3>Portable Use</h3>
+                    <p class="text-muted">
+                      Copy your wallet and open it in another device!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="howTo">
+      <div class="cta-content">
+        <div class="container">
+          <h2>Your privacy move us.<br />Your wallet is only yours.</h2>
+          <a href="/portfolio" class="btn btn-outline btn-xl js-scroll-trigger"
+            >Let's Get Started!</a
+          >
+        </div>
+      </div>
+      <div class="overlay"></div>
+    </section>
+
+    <section class="contact bg-primary" id="donate">
+      <div class="container">
+        <h2>
+          Do you like us?
+          <i class="fas fa-heart"></i>
+        </h2>
+        <h3>
+          Donate to us to keep developing apps with focus on privacy. Every
+          contribution helps!
+        </h3>
+        <ul class="list-inline list-coins">
+          <li class="list-inline-item cripto-item">
+            <img src="img/bitcoin.png" class="crypto-logo" alt="" />
+            <i class="icon-copy text-primary"></i>
+            <button class="btn btn-outline" onclick="copyBitcoinToClipboard()">
+              Copy Bitcoin Address
+            </button>
+          </li>
+          <li class="list-inline-item cripto-item">
+            <img src="img/ethereum.png" class="crypto-logo" alt="" />
+            <i class="icon-copy text-primary"></i>
+            <button class="btn btn-outline" onclick="copyEthereumToClipboard()">
+              Copy Ethereum Address
+            </button>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <script>
+      function copyBitcoinToClipboard() {
+        var copyTextarea = document.createElement("textarea");
+        copyTextarea.style.position = "fixed";
+        copyTextarea.style.opacity = "0";
+        copyTextarea.textContent = "3NFJDDTuZXEv2tpkAiuESVwwgmL837gGAE";
+
+        document.body.appendChild(copyTextarea);
+        copyTextarea.select();
+        document.execCommand("copy");
+        document.body.removeChild(copyTextarea);
+      }
+
+      function copyEthereumToClipboard() {
+        var copyTextarea = document.createElement("textarea");
+        copyTextarea.style.position = "fixed";
+        copyTextarea.style.opacity = "0";
+        copyTextarea.textContent = "0x26eBD102Ac70B2236cd4ec24B5f95B147C71293B";
+
+        document.body.appendChild(copyTextarea);
+        copyTextarea.select();
+        document.execCommand("copy");
+        document.body.removeChild(copyTextarea);
+      }
+    </script>
+    <footer>
+      <div class="container">
+        <p>&copy; mein-wallet 2021. All Rights Reserved.</p>
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="#">Privacy</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">Terms</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">FAQ</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/new-age.min.js"></script>
+  </body>
+</html>
